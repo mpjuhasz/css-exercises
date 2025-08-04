@@ -1,0 +1,17 @@
+p {
+    background-color: pink;
+}
+
+#two {
+    font-size: 40px;
+    color: blue;
+}
+
+#three {
+    font-size: 22px;
+}
+
+#four {
+    background-color: chartreuse;
+    font-weight: 700;
+}
