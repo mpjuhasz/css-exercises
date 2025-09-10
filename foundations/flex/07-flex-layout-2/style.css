@@ -27,3 +27,63 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+ /* Solution */
+
+ body {
+  display: flex;
+  flex-direction: column;
+ }
+
+ ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem;
+ }
+
+ a {
+  color: white;
+  text-decoration: none;
+ }
+
+ li {
+  margin: 1rem 0;
+ }
+
+ .header {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  font-weight: 600;
+ }
+
+ .main {
+  flex-grow: 1;
+  display: flex;
+ }
+
+ .sidebar {
+  flex-shrink: 0;
+ }
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  gap: 2rem;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.card {
+  height: 12rem;
+  width: 20rem;
+  padding: 1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
