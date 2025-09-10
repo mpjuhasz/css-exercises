@@ -67,3 +67,34 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+/* Solution */
+
+.modal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.icon {
+  /* flex: 1 0; */
+  flex-shrink: 0;
+}
+
+/* This way the text can shrink, but the icon can't! */
+
+.right {
+  /* flex: 9 0; */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+}
